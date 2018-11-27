@@ -3,7 +3,7 @@
 *.iws
 *.iml
 *.ipr
-
+*/java/out/
 
 # Compiled class file
 *.class
