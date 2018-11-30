@@ -13,3 +13,11 @@ Then the duplication introduced by the dummy implementation is removed without b
 When `times` is called the internal state of Dollar (ie `amount`) change so the test could be extended to avoid this state mutation.
 
 In this step the first thing is the test refactoring and then the code refactoring.
+
+## Step 03: equals()
+
+Since Dollar create always a new Dollar is a *Value Object*. This kind of objects need the equals method and, if are related with a database, a hashCode method too.
+
+In this step first was tested the equality, then the disequality to make a triangularization that helps to find the code duplication.
+
+
