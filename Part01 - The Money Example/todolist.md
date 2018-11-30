@@ -4,9 +4,13 @@
 - ~~$5 * 2 = $10~~
 - ~~money side effect?~~
 - money rounding
-- **make amount private**
+- ~~make amount private~~
 - ~~equals()~~
 - hashCode()
 - equals null
 - equals object
+- **5 CHF * 2 = 10 CHF**
+- Dollar/Franc duplication
+- common equals
+- common times
 

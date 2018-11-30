@@ -1,4 +1,5 @@
 import Currency.Dollar;
+import Currency.Franc;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -11,6 +12,13 @@ class MoneyTest {
         Dollar dollar = new Dollar(5);
         assertEquals(new Dollar(10), dollar.times(2));
         assertEquals(new Dollar(15), dollar.times(3));
+    }
+
+    @Test
+    public void TestFrancMultiplication(){
+        Franc franc = new Franc(5);
+        assertEquals(new Franc(10), franc.times(2));
+        assertEquals(new Franc(15), franc.times(3));
     }
 
     @Test

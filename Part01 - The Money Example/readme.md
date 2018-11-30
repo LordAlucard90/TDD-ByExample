@@ -26,4 +26,9 @@ The `equals()` implementation allows to refactor the first test and make it more
 
 However the use of `equals()` introduces a risk: if `equals()` fails then two tests could fail at once.
 
+# Step 05: 5 CHF * 2 = 10 CHF
+
+Since the step to write the *$5 + 10 CHF = $10 if rate is 2:1* test is  too still too big, has been introduced Franc by copying dollar.
+
+Copy and past is a bad but necessary choice, the next steps will remove this duplication before to write a new test.
 
