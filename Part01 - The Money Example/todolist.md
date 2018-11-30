@@ -4,8 +4,8 @@
 - ~~$5 * 2 = $10~~
 - ~~money side effect?~~
 - money rounding
-- make amount private
-- **equals()**
+- **make amount private**
+- ~~equals()~~
 - hashCode()
 - equals null
 - equals object

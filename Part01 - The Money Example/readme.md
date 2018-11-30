@@ -16,8 +16,14 @@ In this step the first thing is the test refactoring and then the code refactori
 
 ## Step 03: equals()
 
-Since Dollar create always a new Dollar is a *Value Object*. This kind of objects need the equals method and, if are related with a database, a hashCode method too.
+Since Dollar create always a new Dollar is a *Value Object*. This kind of objects need the `equals()` method and, if are related with a database, a `hashCode()` method too.
 
 In this step first was tested the equality, then the disequality to make a triangularization that helps to find the code duplication.
+
+## Step 04: make amount private
+
+The `equals()` implementation allows to refactor the first test and make it more readable and to make `amount` private.
+
+However the use of `equals()` introduces a risk: if `equals()` fails then two tests could fail at once.
 
 
