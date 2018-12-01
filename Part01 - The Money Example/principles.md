@@ -52,3 +52,13 @@ When a new functionality is added could be used it to refactor other tests and t
 During the development process could be not possible to imagine the new test because is too big.
 
 It is allowed to create a small test and make the green bar with code redundancy if and only if in the refactoring phase, or in the subsequent steps, this redundancy is removed.
+
+## Step 06: common equals
+
+Before refactoring a method (or more precisely, before writing it) there must be at least one test covering it.
+
+
+
+
+
+

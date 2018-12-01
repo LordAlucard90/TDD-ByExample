@@ -31,3 +31,16 @@ However the use of `equals()` introduces a risk: if `equals()` fails then two te
 Since the step to write the *$5 + 10 CHF = $10 if rate is 2:1* test is  too still too big, has been introduced Franc by copying dollar.
 
 Copy and past is a bad but necessary choice, the next steps will remove this duplication before to write a new test.
+
+## Step 06: common equals
+
+To remove the redundant `equals` a Money super class is needed.
+
+First `protected amount` is created in Money and removed from Dollar, then equals is moved up to Money.
+
+To refactor Franc is necessary test his `equals` first, then are made the same passages of Dollar on Franc.
+
+
+
+
+
