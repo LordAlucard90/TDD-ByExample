@@ -13,4 +13,3 @@
 - Dollar/Franc duplication
 - common equals
 - common times
-
