@@ -57,7 +57,11 @@ It is allowed to create a small test and make the green bar with code redundancy
 
 Before refactoring a method (or more precisely, before writing it) there must be at least one test covering it.
 
+## Step 07: compare Dollar and Franc
 
+When a method, like `equals`, is moved up to a superclass must be tested the interaction between the subclasses.
+
+Is important to wait to introduce new design to the code until is not necessary id est forced by the tests.
 
 
 

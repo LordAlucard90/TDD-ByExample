@@ -10,7 +10,7 @@ Then the duplication introduced by the dummy implementation is removed without b
 
 ## Step 02: money side effect?
 
-When `times` is called the internal state of Dollar (ie `amount`) change so the test could be extended to avoid this state mutation.
+When `times` is called the internal state of Dollar (id est `amount`) change so the test could be extended to avoid this state mutation.
 
 In this step the first thing is the test refactoring and then the code refactoring.
 
@@ -40,7 +40,7 @@ First `protected amount` is created in Money and removed from Dollar, then equal
 
 To refactor Franc is necessary test his `equals` first, then are made the same passages of Dollar on Franc.
 
+## Step 07: compare Dollar and Franc
 
-
-
+Moving `equals` to money introduce the needing to test the equality of Dollar And Franc.
 
