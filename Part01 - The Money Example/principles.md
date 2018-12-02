@@ -63,6 +63,8 @@ When a method, like `equals`, is moved up to a superclass must be tested the int
 
 Is important to wait to introduce new design to the code until is not necessary id est forced by the tests.
 
+## Step 08: Dollar/Franc duplication
 
+Wait to remove a test until you are absolutely sure that it is not necessary.
 
 

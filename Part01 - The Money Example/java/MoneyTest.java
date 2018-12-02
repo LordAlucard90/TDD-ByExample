@@ -1,5 +1,6 @@
 import Currency.Dollar;
 import Currency.Franc;
+import Currency.Money;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -9,25 +10,25 @@ class MoneyTest {
 
     @Test
     public void TestMultiplication(){
-        Dollar dollar = new Dollar(5);
-        assertEquals(new Dollar(10), dollar.times(2));
-        assertEquals(new Dollar(15), dollar.times(3));
+        Money money = Money.dollar(5);
+        assertEquals(Money.dollar(10), money.times(2));
+        assertEquals(Money.dollar(15), money.times(3));
     }
 
     @Test
     public void TestFrancMultiplication(){
-        Franc franc = new Franc(5);
-        assertEquals(new Franc(10), franc.times(2));
-        assertEquals(new Franc(15), franc.times(3));
+        Money franc = Money.franc(5);
+        assertEquals(Money.franc(10), franc.times(2));
+        assertEquals(Money.franc(15), franc.times(3));
     }
 
     @Test
     public void TestEquality(){
-        assertEquals(new Dollar(5), new Dollar(5));
-        assertNotEquals(new Dollar(5), new Dollar(6));
-        assertEquals(new Franc(5), new Franc(5));
-        assertNotEquals(new Franc(5), new Franc(6));
-        assertNotEquals(new Dollar(5), new Franc(5));
+        assertEquals(Money.dollar(5), Money.dollar(5));
+        assertNotEquals(Money.dollar(5), Money.dollar(6));
+        assertEquals(Money.franc(5), Money.franc(5));
+        assertNotEquals(Money.franc(5), Money.franc(6));
+        assertNotEquals(Money.dollar(5), Money.franc(5));
     }
 }
 

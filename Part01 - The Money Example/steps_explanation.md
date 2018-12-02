@@ -44,3 +44,11 @@ To refactor Franc is necessary test his `equals` first, then are made the same p
 
 Moving `equals` to money introduce the needing to test the equality of Dollar And Franc.
 
+## Step 08: Dollar/Franc duplication
+
+To gradually remove `times` is necessary move it up to Money, to do that was created a static method `dollar` who returns a Money.
+
+Even if there is a redundant test for the moment it'll remains. 
+
+
+
