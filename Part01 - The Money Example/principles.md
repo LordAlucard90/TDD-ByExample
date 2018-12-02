@@ -67,4 +67,8 @@ Is important to wait to introduce new design to the code until is not necessary 
 
 Wait to remove a test until you are absolutely sure that it is not necessary.
 
+## Step 09: currency?
+
+During a refactoring, no breaks should be made to change anything else that does not belong to the current code. An exception could be made if the change is very fast.
+
 

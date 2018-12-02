@@ -50,5 +50,10 @@ To gradually remove `times` is necessary move it up to Money, to do that was cre
 
 Even if there is a redundant test for the moment it'll remains. 
 
+## Step 09: currency?
+
+First was crated a test to introduce the concept of `currency` and it was implemented in the subclasses.
+
+Then initialization of `currency` was moved to the subclasses constructors and finally to the superclass.
 
 
