@@ -22,6 +22,12 @@ class MoneyTest {
     }
 
     @Test
+    public void TestDifferentClassEquality(){
+        assertEquals(new Money(10, "CHF"), new Franc(10, "CHF"));
+        assertEquals(new Money(10, "USD"), new Dollar(10, "USD"));
+    }
+
+    @Test
     public void TestEquality(){
         assertEquals(Money.dollar(5), Money.dollar(5));
         assertNotEquals(Money.dollar(5), Money.dollar(6));

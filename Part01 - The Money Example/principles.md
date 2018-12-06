@@ -71,4 +71,11 @@ Wait to remove a test until you are absolutely sure that it is not necessary.
 
 During a refactoring, no breaks should be made to change anything else that does not belong to the current code. An exception could be made if the change is very fast.
 
+## Step 10: common times
+
+Sometimes is necessary to go backward to go forward.
+
+It Is allowed implement a new method without a related tests during the red bar if and only if it is used for debug proposes like `toString`.
+
+Is it not allowed to write a new test during red bar.
 

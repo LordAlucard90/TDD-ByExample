@@ -56,4 +56,14 @@ First was crated a test to introduce the concept of `currency` and it was implem
 
 Then initialization of `currency` was moved to the subclasses constructors and finally to the superclass.
 
+## Step 10: common times
+
+To make the `times` methods equal is necessary make a step back from the factory method.
+
+Since the `equals` tests the class type equality, is not possible return a Money instance from `times`.
+
+To change the `equals` is necessary step back to the green bar, add a new specific test and implement the new `equals` logic-
+
+When finally the two `times` are equal is possible push them into Money and remove the redundancy.
+
 
