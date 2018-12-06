@@ -79,3 +79,10 @@ It Is allowed implement a new method without a related tests during the red bar 
 
 Is it not allowed to write a new test during red bar.
 
+## Step 11: Dollar/Franc duplication
+
+Tests that are related to an old logic, are redundant or are an obstacle to the new logic that is evolving can be deleted after a careful control.
+
+
+
+

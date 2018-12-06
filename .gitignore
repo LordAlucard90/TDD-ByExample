@@ -4,6 +4,7 @@
 *.iml
 *.ipr
 */java/out/
+*/out/
 
 # Compiled class file
 *.class

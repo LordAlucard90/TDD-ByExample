@@ -66,4 +66,12 @@ To change the `equals` is necessary step back to the green bar, add a new specif
 
 When finally the two `times` are equal is possible push them into Money and remove the redundancy.
 
+## Step 11: Dollar/Franc duplication
+
+Since Dollar and Franc are not used anymore they can be deleted.
+
+The `TestDifferentClassEquality` is a test for the old logic, now the subclasses are no longer used so the test is a obstacle and must be deleted.
+
+Since there is only money some tests become redundant and can be deleted.
+
 
