@@ -1,6 +1,7 @@
 import Currency.Bank;
 import Currency.Expression;
 import Currency.Money;
+import Currency.Sum;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -34,6 +35,14 @@ class MoneyTest {
         Bank bank = new Bank();
         Money reduced = bank.reduce(sum, "USD");
         assertEquals(Money.dollar(10), reduced);
+    }
+
+    @Test
+    public void testPlusReturnsSum(){
+        Money fiveDollars = Money.dollar(5);
+        Sum sum = (Sum) fiveDollars.plus(fiveDollars);
+        assertEquals(fiveDollars, sum.augend);
+        assertEquals(fiveDollars, sum.addend);
     }
 }
 
