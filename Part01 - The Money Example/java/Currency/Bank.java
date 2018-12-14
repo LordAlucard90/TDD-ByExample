@@ -2,7 +2,8 @@ package Currency;
 
 public class Bank {
 
-    public Money reduce(Expression expression, String currency){
-        return Money.dollar(10);
+    public Money reduce(Expression source, String to){
+        Sum sum = (Sum) source;
+        return sum.reduce(to);
     }
 }
