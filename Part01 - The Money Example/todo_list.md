@@ -4,6 +4,8 @@
 - **$5 + $5 = $10**
 - return money from $5 + $5
 - Bank.reduce(Money)
+- reduce Money with conversion
+- reduce(Bank, String)
 - ~~$5 * 2 = $10~~
 - ~~make amount private~~
 - ~~money side effect?~~

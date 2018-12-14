@@ -87,3 +87,7 @@ Tests that are related to an old logic, are redundant or are an obstacle to the 
 
 When the new test puts the basis of an important design feature that will influence the next steps is important to examine all the possible implementations and their consequences.
 
+## Step 13: Bank.reduce(Money)
+
+When it is not obvious how to implement fake code it is possible go forward working on small related issue to solve the main problem.
+

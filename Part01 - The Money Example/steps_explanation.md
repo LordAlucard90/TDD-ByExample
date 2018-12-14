@@ -82,4 +82,9 @@ This step introduces operations between different currencies, so the design must
 
 The implementation chosen uses a `Bank` actor who manages the exchanges rates. It also uses a `Expression` metaphor to manage the operations between instances of `Money`.
 
+## Step 13: Bank.reduce(Money)
+
+Since many implementations are faked, new test must be created to remove duplication and force implementation.
+
+First `plus` must return a `Sum` expression, then triangularization is used to force Bank `reduce` implementation. At the end Bank `reduce` must parse correctly  `Money` too.
 
