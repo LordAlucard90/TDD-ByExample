@@ -83,6 +83,7 @@ Is it not allowed to write a new test during red bar.
 
 Tests that are related to an old logic, are redundant or are an obstacle to the new logic that is evolving can be deleted after a careful control.
 
+## Step 12: $5 + $5 = $10
 
-
+When the new test puts the basis of an important design feature that will influence the next steps is important to examine all the possible implementations and their consequences.
 

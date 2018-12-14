@@ -74,4 +74,12 @@ The `TestDifferentClassEquality` is a test for the old logic, now the subclasses
 
 Since there is only money some tests become redundant and can be deleted.
 
+## Step 12: $5 + $5 = $10
+
+Since `$ 5 + 10 CHF = $ 10` is still too difficult, the addition will be implemented first.
+
+This step introduces operations between different currencies, so the design must be evaluated.
+
+The implementation chosen uses a `Bank` actor who manages the exchanges rates. It also uses a `Expression` metaphor to manage the operations between instances of `Money`.
+
 

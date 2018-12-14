@@ -1,6 +1,7 @@
 # TODO List
 
 - $5 + 10 CHF = $10 if rate is 2:1
+- **$5 + $5 = $10**
 - ~~$5 * 2 = $10~~
 - ~~make amount private~~
 - ~~money side effect?~~
@@ -10,10 +11,10 @@
 - equals null
 - equals object
 - ~~5 CHF * 2 = 10 CHF~~
-- **Dollar/Franc duplication**
+- ~~Dollar/Franc duplication~~
 - ~~common equals~~
 - ~~common times~~
 - ~~compare Dollar and Franc~~
 - ~~currency?~~
-- delete TestFrancMultiplication?
+- ~~delete TestFrancMultiplication?~~
 
