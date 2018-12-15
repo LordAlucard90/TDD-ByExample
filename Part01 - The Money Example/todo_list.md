@@ -1,10 +1,10 @@
 # TODO List
 
 - $5 + 10 CHF = $10 if rate is 2:1
-- **$5 + $5 = $10**
+- $5 + $5 = $10
 - return money from $5 + $5
-- Bank.reduce(Money)
-- reduce Money with conversion
+- ~~Bank.reduce(Money)~~
+- **reduce Money with conversion**
 - reduce(Bank, String)
 - ~~$5 * 2 = $10~~
 - ~~make amount private~~
