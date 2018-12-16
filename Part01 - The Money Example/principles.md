@@ -91,3 +91,9 @@ When the new test puts the basis of an important design feature that will influe
 
 When it is not obvious how to implement fake code it is possible go forward working on small related issue to solve the main problem.
 
+## Step 14: reduce Money with conversion
+
+Each new class added must have its own tests on a multi-developer project.
+
+If there is only one developer, the new class is simple and its use is clear the tests could be omitted.
+

@@ -88,3 +88,9 @@ Since many implementations are faked, new test must be created to remove duplica
 
 First `plus` must return a `Sum` expression, then triangularization is used to force Bank `reduce` implementation. At the end Bank `reduce` must parse correctly  `Money` too.
 
+## Step 14: reduce Money with conversion
+
+In this step the Franc/Dollar conversion was implemented and a new class was introduced to manage the rates storing.
+
+
+
