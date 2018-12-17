@@ -97,3 +97,8 @@ Each new class added must have its own tests on a multi-developer project.
 
 If there is only one developer, the new class is simple and its use is clear the tests could be omitted.
 
+## Step 15: $5 + 10 CHF = $10 if rate is 2:1
+
+If a test needs too many steps to become green, the current interfaces must be used and, when the bar is green, they can gradually be replaced with the desired ones.
+
+

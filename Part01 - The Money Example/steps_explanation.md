@@ -92,5 +92,10 @@ First `plus` must return a `Sum` expression, then triangularization is used to f
 
 In this step the Franc/Dollar conversion was implemented and a new class was introduced to manage the rates storing.
 
+## Step 15: $5 + 10 CHF = $10 if rate is 2:1
+
+The mixed addition test should have Dollars and Francs represented as Expressions, this is not possible in a single step.
+
+During the refactoring the methods with a default implementation are added to the todo list. 
 
 
