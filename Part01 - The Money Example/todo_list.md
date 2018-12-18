@@ -6,7 +6,7 @@
 - ~~Bank.reduce(Money)~~
 - ~~reduce Money with conversion~~
 - ~~reduce(Bank, String)~~
-- Sum.plus
+- **Sum.plus**
 - Expression.times
 - ~~$5 * 2 = $10~~
 - ~~make amount private~~
