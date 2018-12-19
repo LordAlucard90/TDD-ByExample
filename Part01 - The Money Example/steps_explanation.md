@@ -98,4 +98,7 @@ The mixed addition test should have Dollars and Francs represented as Expression
 
 During the refactoring the methods with a default implementation are added to the todo list. 
 
+## Step 16: Sum.plus, Expression.times
+
+`times` and `plus` have been implemented in Money and Sum to make Expression the common interface of both classes.
 

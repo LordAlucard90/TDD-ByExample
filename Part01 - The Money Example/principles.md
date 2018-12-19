@@ -101,4 +101,7 @@ If there is only one developer, the new class is simple and its use is clear the
 
 If a test needs too many steps to become green, the current interfaces must be used and, when the bar is green, they can gradually be replaced with the desired ones.
 
+## Step 16: Sum.plus, Expression.times
+
+The test code must communicate what is under testing, event if there is another way to write the test, it must be used the specific code under testing, not a superstructure who will use that part of code.
 
