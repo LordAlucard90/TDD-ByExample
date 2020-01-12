@@ -11,3 +11,5 @@ The folder contains:
 - **steps_explanation** - the explanation of each step.
 
 - **todo_list** - the list of tests to be done.
+
+- **conclusions** - the writer conclusions of the chapter
