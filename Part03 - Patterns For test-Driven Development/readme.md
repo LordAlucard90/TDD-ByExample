@@ -9,13 +9,15 @@
     - Test Data
     - Evident Data
 2. [**02 - Red Bar Patterns**](./02%20-%20Red%20Bar%20Patterns.md)
-    - Test
-    - Isolated Test
-    - Test List
-    - Test First
-    - Assert First
-    - Test Data
-    - Evident Data
+    - One Step Test
+    - Starter Test
+    - Explanation Test
+    - Learning Test
+    - Another Test
+    - Regression Test
+    - Break (Dave Ungar  Shower Methodology)
+    - Do Over
+    - Cheap Desk, Nice Chair
 3. [**03 - Testing Patterns**](./03%20-%20Testing%20Patterns.md)
     - Child Test
     - Mock Object
